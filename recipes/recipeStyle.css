@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik+Vinyl&family=Source+Sans+Pro:ital,wght@0,200;0,700;0,900;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(245, 245, 245, 0.76);
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+}
+h2{
+    margin: 70px 0;
+    text-align:center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    margin: 60px 0;
+}
+.brief{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    margin:0 auto;
+    background-image: linear-gradient(bisque, rgba(255, 228, 196, 0));
+    padding: 40px 0;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    
+
+}
+.brief p{
+    width: 400px;
+}
+.pic{
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: 4px 8px 12px black;
+}
+ion-icon{
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+/*************************INGREDIENTS AND TIME************/
+.ing-time{
+    background-image: linear-gradient(rgba(255, 228, 196, 0.651), rgba(255, 228, 196, 0));
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr ;
+    gap: 50px;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+}
+.ing-time p{
+    font-size: 23px;
+    line-height: 30px;
+}
+.time{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 10px;
+
+}
+.time div{
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(128, 128, 128, 0.397);
+
+    
+}
+.time div p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/********************Directions *******************/
+.content{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.content div{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 9px;
+    background-color: rgba(255, 228, 196, 0.205);
+}
+.content div:last-child{
+    margin-bottom: 80px;
+}
+.content div p:first-child{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer{ position:relative ;}
+footer .abso{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+.abso div:last-child{
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
